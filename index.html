@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+
     <script src="https://kit.fontawesome.com/2e0e252e85.js"></script>
 </head>
 <body>
-    <header>
-        <div>
-            <img src="img/karma-logo.svg" alt="">
+    <header class="flex-row cont-width">
+        <div id="logo-div">
+            <img id="logo" src="img/karma-logo.svg" alt="">
         </div>
 
-        <div>
+        <div id="nav-links-div" class="flex-row">
             <span>Meet Karma</span>
             <span>How it Works</span>
             <span>Store</span>
@@ -23,18 +26,18 @@
         </div>
     </header>
 
-    <main>
-        <h1>Introducing Karma</h1>
-        <h2>Bring Wifi with you, everywhere you go.</h2>
+    <main class="cont-width">
+        <h1 class="marg-down">Introducing Karma</h1>
+        <h2 class="marg-down">Bring Wifi with you, everywhere you go.</h2>
         <button>Learn More</button>
     </main>
 
-    <section>
-        <div>
+    <section class="cont-width">
+        <div id="section-h1-cont">
             <h1>Everyone needs a little Karma.</h1>
         </div>
 
-        <div>
+        <div id="row-imgs" class="flex-row">
             <div>
                 <img src="img/icon-devices.svg" alt="">
                 <p>Internet for all devices</p>
@@ -52,18 +55,16 @@
         </div>
     </section>
 
-    <footer>
+    <footer class="cont-width">
         <p>Join us on</p>
 
         <div>
-            <ul>
-                <li><i class="fab fa-twitter"></i></li>
-                <li><i class="fab fa-facebook-f"></i></li>
-                <li><i class="fab fa-instagram"></i></li>
-            </ul>
+            <span><i class="fab fa-twitter" style="color: #55acee"></i></span>
+            <span><i class="fab fa-facebook-f" style="color: #4c66a4"></i></span>
+            <span><i class="fab fa-instagram" style="color: #3f729b"></i></span>
         </div>
 
-        <p>&copy; Karma Mobility, Inc.</p>
+        <p id="copyright">&copy; Karma Mobility, Inc.</p>
     </footer>
 
 </body>
