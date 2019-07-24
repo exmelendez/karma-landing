@@ -31,6 +31,10 @@ body, main, section, footer {
     flex-direction: column;
 }
 
+body {
+    padding-top: 4em;
+}
+
 .flex-row {
     display: flex;
 }
@@ -46,6 +50,11 @@ HEADER STYLE
 header {
     padding: 0.5em 0;
     border-bottom: 1px solid rgba(167, 166, 166, 0.434);
+    top: 0;
+    
+    position: fixed;
+    background-color: #fff;
+
 }
 
 #logo-div {
@@ -212,6 +221,20 @@ footer div {
     justify-content: space-between;
 
     margin: 1.5em 0;
+}
+
+footer div span {
+    background-color: rgba(247, 247, 247, 0.92);
+    border-radius: 20px;
+
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
 }
 
 #copyright {
